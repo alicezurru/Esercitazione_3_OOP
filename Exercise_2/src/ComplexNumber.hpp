@@ -21,4 +21,4 @@ struct ComplexNumber {
 ostream& operator<<(ostream& os, const ComplexNumber& c); //dichiaro
 ComplexNumber operator+(const ComplexNumber& c1, const ComplexNumber& c2);
 bool operator==(const ComplexNumber& c1, const ComplexNumber& c2);
-ComplexNumber conjugate(const ComplexNumber c);
+ComplexNumber conjugate(const ComplexNumber& c);

@@ -32,7 +32,7 @@ bool operator==(const ComplexNumber& c1, const ComplexNumber& c2)
     return flag;
 }
 
-ComplexNumber conjugate(const ComplexNumber c)
+ComplexNumber conjugate(const ComplexNumber& c)
 {
     ComplexNumber cc(c.real,(-c.imag));
     return cc;
